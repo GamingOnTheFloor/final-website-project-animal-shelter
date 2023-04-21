@@ -189,7 +189,6 @@ __Submit the following for your final project:__
 
 <br>
 <br>
-<br>
 
 # __Final Project Grading Rubric__
 | __Criteria__ | __Points__ |
