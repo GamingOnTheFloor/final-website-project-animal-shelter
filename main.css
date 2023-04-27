@@ -1,0 +1,148 @@
+/* Color Palette: https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25 */
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FEFAE0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #606C38;
+    border-bottom: solid 2px #283618;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 0em;
+    display: flex;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a.not_logo {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #FEFAE0;
+    display: block;
+    border-left: 1px solid;
+    border-right: 0px solid;
+    padding: .5em 1em .5em;
+
+}
+
+nav ul li a#you_are_here {
+    text-decoration: underline;
+}
+
+nav ul li a#company_name {
+    padding-left: 4.75em;
+    margin-right: .25em;
+    margin-top: -1.9em;
+}
+
+nav ul li a img {
+    margin-top: .1em;
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-bottom: -.5em;
+    padding-left: .75em;
+    height: 3em;
+    width: auto;
+    
+}
+
+footer {
+    display: flex;
+    background-color: #606C38;
+    border-top: solid 2px #283618;
+    margin-bottom: -1em;
+    flex-direction: row;
+    align-items: stretch;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #FEFAE0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FEFAE0;
+}
+
+footer div#contact_words {
+    display: flex;
+    flex: auto;
+    order: 1;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding-top: 16px;
+}
+
+footer div#contact_words p {
+    padding: 0;
+    margin: 0;
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+
+footer div#contact_icons {
+    display: flex;
+    flex: auto;
+    order: 2;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div#contact_icons a img{
+    padding: 5px;
+    height: 100px;
+    width: auto;
+}
+
+footer div#hours {
+    display: flex;
+    flex: auto;
+    order: 3;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 10%;
+    padding-top: 16px;
+}
+
+footer div#hours p {
+    padding: 0;
+    margin: 0;
+    margin-top: 4px;
+}
+
