@@ -9,6 +9,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" media="screen and (min-width: 970px)" href="main.css">
+    <style>
+        h3 {
+            margin-top: -0.75em;
+            padding-top: 0;
+            font-size: 24px;
+        }
+        main {
+            display: grid;
+            grid-template-columns: minmax(20em, 1fr), 408px;
+            grid-template-rows: auto;
+            grid-template-areas:
+            "main media";
+        }
+        main div {
+            grid-area: main;
+            font-size: 20px;
+        }
+        main img {
+            width: 400px;
+            height: auto;
+            padding: 4px;
+            grid-area: media;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -23,6 +47,7 @@
         </nav>
     </header>
     <main>
+        <div>
         <h1>Pet Hitched</h1>
         <h3>Local Nonprofit Animal Shelter</h3>
         <p>At Pet Hitched, we</p>
@@ -34,6 +59,8 @@
         </ol>
         <p>We have volenteer opportunities.</p>
         <p>We accept donations. We will take anything from food, to toys, to litter. You can find all that and more at <a href="https://petco.com">petco.com</a>.</p>
+        </div>
+        <img src="word-cloud-2696611_1920.png" alt="Word Cloud">
     </main>
     <footer>
         <div id="contact_icons">
