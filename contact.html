@@ -4,33 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pet Hitched Animal Shelter</title>
+    <title>Contact Pet Hitched Animal Shelter</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css"> <!-- media="screen and (min-width: 970px)" -->
+    <link rel="stylesheet" href="main.css">
     <style>
-        h3 {
-            margin-top: -0.75em;
-            padding-top: 0;
-            font-size: 24px;
-        }
         main {
             display: grid;
-            grid-template-columns: minmax(20em, 1fr), 408px;
-            grid-template-rows: auto;
-            grid-template-areas:
-            "main media";
+            grid-template-columns: auto;
+            grid-template-rows: auto, auto, auto;
+            grid-template-areas: 
+            "before"
+            "form"
+            "after";
         }
-        main div {
-            grid-area: main;
-            font-size: 20px;
+        main div#before {
+            grid-area: before;
         }
-        main img {
-            width: 400px;
-            height: auto;
-            padding: 4px;
-            grid-area: media;
+        main div#after {
+            grid-area: after;
         }
     </style>
 </head>
@@ -39,28 +32,30 @@
         <nav>
             <ul>
                 <li><a href="index.html"><img src="logo.png"></a><a class="not_logo" id="company_name" href="index.html">Pet Hitched</a></li> <!-- Logo -->
-                <li><a class="not_logo" id="you_are_here" href="index.html">Home</a></li>
+                <li><a class="not_logo" href="index.html">Home</a></li>
                 <li><a class="not_logo" href="animals.html">Animals</a></li>
-                <li><a class="not_logo" href="contact.html">Contact Us</a></li>
+                <li><a class="not_logo" id="you_are_here" href="contact.html">Contact Us</a></li>
                 <li><a class="not_logo">&nbsp;</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div>
-        <h1>Pet Hitched</h1>
-        <h3>Local Nonprofit Animal Shelter</h3>
-        <p>At Pet Hitched, we</p>
-        <ol>
-            <li>Take in animals</li>
-            <li>Care for animals</li>
-            <li>Treat animals back to health</li>
-            <li>Find animals loving homes!</li>
-        </ol>
-        <p>We have volenteer opportunities.</p>
-        <p>We accept donations. We will take anything from food, to toys, to litter. You can find all that and more at <a href="https://petco.com">petco.com</a>.</p>
+        <div id="before">
+        <h1>Contact Us!</h1>
+        <p>Contact us for addoption wants, volenteer opportunities, and donations!</p>
         </div>
-        <img src="word-cloud-2696611_1920.png" alt="Word Cloud">
+        <form name="contact_form" method="POST" data-netlify="true">
+            <ul>
+                <li>Name: <input type="text" name="name"> </li>
+                <li>Email: <input type="email" name="email"> </li>
+                <li>Phone: <input type="tel" name="phone"> </li>
+                <li>Enquiry: <br> <textarea rows="4" cols="60" maxlength="400" placeholder="What about Pet Hitched Animal Shelter are you interested in? Send me a message. The form actually works!" name="message"></textarea> </li>
+            </ul>
+            <p> <input type="submit" value="Send"> <input type="reset"> </p>
+        </form>
+        <div id="after">
+        <p>You can find us at <strong>2735 Monroe Blvd, Ogden, UT 84403</strong> during buisness hours. You can email us at <a href="mailto:info@pethitched.org">info@pethitched.org</a>. You can call us at <a href="tel:+18018675309">(801) 867-5309</a>.</p>
+        </div>
     </main>
     <footer>
         <div id="contact_icons">

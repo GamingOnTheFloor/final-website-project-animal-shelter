@@ -191,31 +191,31 @@ __Submit the following for your final project:__
 <br>
 
 # __Final Project Grading Rubric__
-| __Criteria__ | __Points__ |
-|:---|---|
-| <br>__HTML__ |   |
-| A home page representing the brand was created. | 20 | 
-| A second relevant content page was created.  | 20 | 
-| A contact page with the required form was included.  | 20 | 
-| All pages have a header, nav, main, image and footer elements.  | 20 | 
-| Nav styling is consistent across all pages (including the position/location on the page).| 20 |
-| Footer styling is consistent across all pages (including the position/location on the page) and contains the required social media icons and copyright information.| 20 |
-| Each page contains appropriate and adequate text about the brand and its offerings.| 20 |
-| At least one of the pages includes a list.  | 20 | 
-| The home page includes a brand logo. And every page contains an image or logo that adds to the overall design of the website.| 20 |
-| The following was included in at least one of the pages:<br>1. div elements with classes and/or ids.<br>2. At least 1 additional semantic element e.g., sections, article. | 20 |
-| At least one page includes a description of and a link to an external resource (website) relevant to the website | 10 |
+| __Criteria__ | __Points__ | __✓?__ |
+|:---|---|---|
+| <br>__HTML__
+| A home page representing the brand was created. | 20 | ✓ |
+| A second relevant content page was created.  | 20 | ✓ |
+| A contact page with the required form was included.  | 20 | ✓ |
+| All pages have a header, nav, main, image and footer elements.  | 20 | ✓ |
+| Nav styling is consistent across all pages (including the position/location on the page).| 20 | ✓ |
+| Footer styling is consistent across all pages (including the position/location on the page) and contains the required social media icons and copyright information.| 20 | ✓ |
+| Each page contains appropriate and adequate text about the brand and its offerings.| 20 | ✓ |
+| At least one of the pages includes a list.  | 20 | ✓ |
+| The home page includes a brand logo. And every page contains an image or logo that adds to the overall design of the website.| 20 | ✓ |
+| The following was included in at least one of the pages:<br>1. div elements with classes and/or ids.<br>2. At least 1 additional semantic element e.g., sections, article. | 20 | 1. ✓<br>2. ✓ |
+| At least one page includes a description of and a link to an external resource (website) relevant to the website | 10 | ✓ |
 | <br>__CSS & Web Usability__
-| At least one CSS rule was applied to every element, class, and id created in the html document.| 20 |
-| Appropriate font styles were chosen for both headings and paragraphs.  | 20 | 
-| An appropriate color scheme of 5 colors or less was applied to the website.  | 20 | 
-| Flexbox or Grid was used to create a single-column layout for content in one of the pages.| 20 |
-| Grid was used to create a multi-column layout for content in one of the pages.  | 20 | 
-| Media queries with appropriate styling rules were created to make the website responsive for at least 2 breaking points (screen min-width of 480px and 768px).| 20 |
-| Images used were of high quality (not blurry or distorted) and were appropriately resized, positioned, and styled in other ways to blend in well with the page.| 20 |
-| Specific and appropriate usability guidelines were clearly followed in the design and styling of the website.| 20 |
+| At least one CSS rule was applied to every element, class, and id created in the html document.| 20 | ✓ |
+| Appropriate font styles were chosen for both headings and paragraphs.  | 20 | ✓ |
+| An appropriate color scheme of 5 colors or less was applied to the website.  | 20 | ✓ |
+| Flexbox or Grid was used to create a single-column layout for content in one of the pages.| 20 | ✓ |
+| Grid was used to create a multi-column layout for content in one of the pages.  | 20 | ✓ |
+| Media queries with appropriate styling rules were created to make the website responsive for at least 2 breaking points (screen min-width of 480px and 768px).| 20 | ✗ |
+| Images used were of high quality (not blurry or distorted) and were appropriately resized, positioned, and styled in other ways to blend in well with the page.| 20 | ✓ |
+| Specific and appropriate usability guidelines were clearly followed in the design and styling of the website.| 20 | ✓ |
 | <br>__Project Evaluation Report__
-| A detailed project evaluation report analyzing all the 5 required areas was completed.<br><br>The project evaluation report included content for the following headings:<br>What I Learned (10 points)<br>What I Am Most Proud Of (10 points)<br>What I Would Improve on with More Time (10 points)<br>Explanation of Design Decisions I Made (Color, Fonts, Layouts, etc.) (10 points)<br>Usability Guidelines that I Found to be Most Useful for My Design (10 points) | 20 | 
+| A detailed project evaluation report analyzing all the 5 required areas was completed.<br><br>The project evaluation report included content for the following headings:<br>What I Learned (10 points)<br>What I Am Most Proud Of (10 points)<br>What I Would Improve on with More Time (10 points)<br>Explanation of Design Decisions I Made (Color, Fonts, Layouts, etc.) (10 points)<br>Usability Guidelines that I Found to be Most Useful for My Design (10 points) | 20 | ✗ |
 | <br>__Netlify__
-| Website is published and accessible through link generated from Netlify. | 10 | 
-| <br>__Total__ | 400 | 
+| Website is published and accessible through link generated from Netlify. | 10 | ✓ |
+| <br>__Total__ | 400 |

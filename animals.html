@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Hitched Animals</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <style>
+        main img {
+            display: block;
+            width: 512px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            width: 512px;
+            
+        }
+        h3 {
+            margin-top: 0;
+            font-size: 24px;
+        }
+        main section h1{
+            font-size: 40px;
+        }
+        /* section {
+            display: grid;
+            grid-template-columns: minmax(20em, 1fr), 520px;
+            grid-template-rows: auto;
+            grid-template-areas: "text pictures";
+        }
+        section h1, section ul li h3, section ul li p {
+            grid-area: text;
+        }
+        section ul li img {
+            grid-area: pictures;
+        } */
+        main ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            padding-left: 0em;
+            display: flex;
+        }
+        main li {
+            border-top: black 1px solid;
+            border-bottom: black 1px solid;
+            padding-top: 5px;
+            padding-right: 5px;
+        }
+        section#quick_links li {
+            border: none;
+        }
+        main p {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 512px;
+        }
+        section#quick_links ul li a{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 512px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            color: #FEFAE0;
+            background-color: #606C38;
+            border: #283618 1px solid;
+            border-radius: .5em;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding: 5px
+        }
+        section#quick_links ul li a:focus, section#quick_links ul li a:hover, section#quick_links ul li a:active{
+            background-color: #283618;
+            color: #FEFAE0;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="logo.png"></a><a class="not_logo" id="company_name" href="index.html">Pet Hitched</a></li> <!-- Logo -->
+                <li><a class="not_logo" href="index.html">Home</a></li>
+                <li><a class="not_logo" id="you_are_here" href="animals.html">Animals</a></li>
+                <li><a class="not_logo" href="contact.html">Contact Us</a></li>
+                <li><a class="not_logo">&nbsp;</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Animals Looking for a Loving Home!</h1>
+        <section id="quick_links">
+            <ul>
+                <li><a href="#cats">Cats</a></li>
+                <li><a href="#dogs">Dogs</a></li>
+                <li><a href="#misc">Misc.</a></li>
+            </ul>
+        </section>
+
+        <section id="cats">
+            <h1>Cats</h1>
+            <ul>
+                <li><img src="animals\cats\tabby-kitten-1517450_1280.jpg" alt="Aristaeus the Tabby"><h3>Aristaeus the Tabby</h3><p class="pet_info">Aristaeus, Ari for short, is 3 months old.</p> </li>
+                <li><img src="animals\cats\shelter-cat-2754333_1920.jpg" alt="Leanna the American Wirehair"><h3>Leanna the American Wirehair</h3><p class="pet_info">Leanna, Anna for short, is 4 years old.</p> </li>
+                <li><img src="animals\cats\cat-baby-2668321_1920.jpg" alt="Kaitlyn the American Curl"><h3>Kaitlyn the American Curl</h3><p class="pet_info">Kaitlyn, Kaity for short, is 10 years old and loves boxes!</p> </li>
+            </ul>
+        </section>
+
+        <section id="dogs">
+            <h1>Dogs</h1>
+            <ul>
+                <li><img src="animals\dogs\animal-welfare-1116205_1920.jpg" alt="Beatriz the Brittany"><h3>Beatriz the Brittany</h3><p class="pet_info">Beatriz, Beat for short, is 5 years old.</p> </li>
+                <li><img src="animals\dogs\rottweiler-750550_1920.jpg" alt="Ragnar the Rottweiler"><h3>Ragnar the Rottweiler</h3><p class="pet_info">Ragnar is 4 years old.</p> </li>
+                <li><img src="animals\dogs\shepherd-dog-2669660_1920.jpg" alt="Elsa the Belgian Shepherd"><h3>Elsa the Belgian Shepherd</h3><p class="pet_info">Elsa is 12 years old.</p> </li>
+            </ul>
+        </section>
+
+        <section id="misc">
+            <h1>Misc.</h1>
+            <ul>
+                <li><img src="animals\misc\chicken-3741129_1920.jpg" alt="Ritu the Chicken"><h3>Ritu the Chicken</h3><p class="pet_info">Rito is 4 years old.</p> </li>
+                <li><img src="animals\misc\goat-4221550_1920.jpg" alt="Spiridon the Goat"><h3>Spiridon the Goat</h3><p class="pet_info">Spiridon, Spiri for short, is 16 years old.</p> </li>
+                <li><img src="animals\misc\hare-2514837_1920.jpg" alt="Rosetta the Bunny"><h3>Rosetta the Bunny</h3><p class="pet_info">Rosetta, Rosie for short, is 1 year old.</p> </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div id="contact_icons">
+                <a href="mailto:info@pethitched.org"><img src="icons/email.svg" alt="Email"></a>
+                <a href="tel:+18018675309"><img src="icons/phone.svg" alt="Phone"></a>
+                <a href="https://www.instagram.com/pet_hitched_animal_shelter/"><img src="icons/instagram.svg" alt="Instagram logo"></a>
+                <a href="https://facebook.com/pet.hitched.animal.shelter"><img src="icons/facebook.svg" alt="Facebook logo"></a>
+        </div>
+        <div id="hours">
+            <p>Our Hours</p>
+            <ul>
+                <li>Sunday: Closed</li>
+                <li>Monday: <time datetime="13:00">1pm</time>-<time datetime="19:00">7pm</time></li>
+                <li>Tuesday: <time datetime="09:00">9am</time>-<time datetime="19:00">7pm</time></li>
+                <li>Wednesday: <time datetime="09:00">9am</time>-<time datetime="19:00">7pm</time></li>
+                <li>Thursday: <time datetime="09:00">9am</time>-<time datetime="19:00">7pm</time></li>
+                <li>Friday: <time datetime="09:00">9am</time>-<time datetime="19:00">7pm</time></li>
+                <li>Saturday: <time datetime="10:00">10am</time>-<time datetime="21:00">9pm</time></li>
+            </ul>
+        </div>
+        <div id="contact_words">
+            <p>2735 Monroe Blvd, Ogden, UT 84403</p>
+            <p>Email <a href="mailto:info@pethitched.org">info@pethitched.org</a></p>
+            <p>Phone <a href="tel:+18018675309">(801) 867-5309</a></p>
+            <p><small>Copyright &copy; 2023, Pet Hitched Animal Shelter, All Rights Reserved</small></p>
+        </div>
+    </footer>
+</body>
+</html>
